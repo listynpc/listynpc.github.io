@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bali Hati School Program</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="logonew.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="https://www.youtube.com/@balihati386">YOUTUBE</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </div>
+        </nav>
+
+    <div class="text-box">
+        <h1>Camp Bali Hati Senior High School</h1>
+        <p>Camp is a school program designed to help students develop character, teamwork, and confidence through fun and meaningful activities.<br> This program combines learning with games, outdoor experiences, and group challenges to create an enjoyable and educational environment for students.</p>
+        <a href="https://www.youtube.com/@balihati386" class="hero-btn">Check it out</a>
+    </div>
+
+    </section>
+    
+    <section class="course" id="home">
+    <h1>Our Camps</h1>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Funtastic Camp</h3>
+            <p>Funtastic Camp is a fun and engaging school program designed to develop students’ character, creativity, and teamwork through interactive games and group activities.
+                This program creates a joyful learning atmosphere where students can build confidence, strengthen friendships, and enjoy meaningful experiences together.
+            </p>
+        </div>
+
+        <div class="course-col">
+            <h3>Survival Camp</h3>
+            <p>Survival Camp is a challenging outdoor program focused on building students’ independence, resilience, and problem-solving skills. 
+                Through survival-based activities and teamwork challenges, students learn how to adapt, cooperate, and face obstacles responsibly in a safe and guided environment.
+            </p>
+        </div>
+
+    </div>
+    </section>
+
+<!-- -----activities pictures---- -->
+
+<!-- <section class="pictures">
+    <h1>Pictures</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias, labore.</p>
+
+    <div class="">
+        <div class="pictures-col">
+            <img src="cooking.jpg">
+            <div class="layer">
+                <h3>COOKING COMPETITION</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="pictures-col">
+            <img src="firedance.JPG">
+            <div class="layer">
+                <h3>FIRE DANCE</h3>
+            </div>
+        </div>
+
+    <div class="pictures-col">
+            <img src="trekking.JPG">
+            <div class="layer">
+                <h3>TREKKING</h3>
+            </div>
+        </div>
+
+</section> -->
+
+<section class="activities" id="about">
+    <h1>Our Activities</h1>
+    <p></p>
+
+    <div class="row">
+        <div class="activities-col">
+            <img src="cooking.jpg" alt="">
+            <h3>Cooking Competition</h3>
+            <p>The Cooking Competition is a fun activity where students work together to create creative dishes. It builds teamwork and confidence.
+            </p>
+        </div>
+
+        <div class="activities-col">
+            <img src="firedance.JPG" alt="">
+            <h3>Fire Dance</h3>
+            <p>Fire Dance is an energetic performance activity that develops confidence and coordination. Teamwork is essential.
+            </p>
+        </div>
+
+        <div class="activities-col">
+            <img src="trekking.JPG" alt="">
+            <h3>Trekking</h3>
+            <p>Trekking is an outdoor activity that trains endurance and resilience. It encourages teamwork and appreciation for nature.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- ----toggle menu---- -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+<!-- ----footer--- -->
+ <section class="footer" id="contact">
+    <h4>Let's Join Us</h4>
+    <p>Through Funtastic Camp, students are encouraged to grow, collaborate, and discover their potential <br> BALI HATI SCHOOL? <br>DO THE BEST, BE THE BEST, ALL THE BEST <br>YES YES YES</p>
+
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-whatsapp"></i>
+        
+    </div>
+ </section>
+
+</body>
+</html>
